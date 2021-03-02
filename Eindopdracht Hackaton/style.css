@@ -1,0 +1,257 @@
+.black-border {
+    border: 5px solid #ac2a2a;
+    margin: 20px;
+    padding: 5px 6px 5px 6px;
+}
+
+@media (min-width: 320px) {
+    body {
+        background-color: #d4cf57;
+        font-family: sans-serif;
+        font-size: 16px;
+        color: solid black;
+        line-height: 1.2em;
+        text-align: center;
+        margin: 50px;
+    }
+
+    .flex-container {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .container {
+        border: 5px 10px 5px 10px;
+        margin: 10px 20px 10px 20px;
+        padding: 1px 2px 1px 2px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 90px 90px 90px 90px 90px 90px 90px 90px 140px;
+        grid-template-areas:
+            "plaatje plaatje plaatje plaatje"
+            "plaatje plaatje plaatje plaatje"
+            "lidworden lidworden contact contact"
+            "lidworden lidworden contact contact"
+            "overons overons onzeleden onzeleden"
+            "overons overons onzeleden onzeleden"
+            "onzesponsoren onzesponsoren geschiedenismcdonalds geschiedenismcdonalds"
+            "onzesponsoren onzesponsoren geschiedenismcdonalds geschiedenismcdonalds";
+        grid-gap: 5px;
+    }
+
+    .container1 {
+        border: 5px 10px 5px 10px;
+        margin: 10px 20px 10px 20px;
+        padding: 1px 2px 1px 2px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 100px;
+        grid-template-areas:
+            "contact contact"
+            "contact contact"
+            "contact contact"
+            "contact contact"
+            "contact contact"
+            "contact contact"
+            "contact contact"
+            "contact contact";
+        grid-gap: 5px;
+    }
+
+    .container2 {
+        border: 5px 10px 5px 10px;
+        margin: 10px 20px 10px 20px;
+        padding: 1px 2px 1px 2px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 100px;
+        grid-template-areas:
+            "lidworden lidworden"
+            "lidworden lidworden"
+            "lidworden lidworden"
+            "lidworden lidworden"
+            "lidworden lidworden"
+            "lidworden lidworden"
+            "lidworden lidworden"
+            "lidworden lidworden";
+        grid-gap: 5px;
+    }
+
+    .container3 {
+        border: 5px 10px 5px 10px;
+        margin: 10px 20px 10px 20px;
+        padding: 1px 2px 1px 2px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 100px;
+        grid-template-areas:
+            "overons overons"
+            "overons overons"
+            "overons overons"
+            "overons overons"
+            "overons overons"
+            "overons overons"
+            "overons overons"
+            "overons overons";
+        grid-gap: 5px;
+    }
+
+    .welkom {
+        grid-area: welkom;
+        background-color: #ac2a2a;
+        border-radius: 10px;
+    }
+
+    .plaatje {
+        grid-area: plaatje;
+        background-color: #ffffff;
+        border-radius: 10px;
+    }
+
+    .lidworden {
+        grid-area: lidworden;
+        background-color: #d1692f;
+        border-radius: 10px;
+    }
+
+    .contact {
+        grid-area: contact;
+        background-color: #d1692f;
+        border-radius: 10px;
+    }
+
+    .overons {
+        grid-area: overons;
+        background-color: #af5934;
+        border-radius: 10px;
+    }
+
+    .onzeleden {
+        grid-area: onzeleden;
+        background-color: #af5934;
+        border-radius: 10px;
+    }
+
+    .onzesponsoren {
+        grid-area: onzesponsoren;
+        background-color: #8d512f;
+        border-radius: 10px;
+    }
+
+    .geschiedenismcdonalds {
+        grid-area: geschiedenismcdonalds;
+        background-color: #8d512f;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-color: #d4cf57;
+        font-family: sans-serif;
+        font-size: 30px;
+        color: solid black;
+        line-height: 1.2em;
+        text-align: center;
+        margin: 50px;
+    }
+
+    .flex-container {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .container {
+        border: 30px 60px 30px 60px;
+        margin: 10px 20px 10px 20px;
+        padding: 1px 2px 1px 2px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 100px 100px;
+        grid-template-areas:
+            "plaatje plaatje plaatje plaatje"
+            "plaatje plaatje plaatje plaatje"
+            "lidworden lidworden contact contact"
+            "lidworden lidworden contact contact"
+            "overons overons onzeleden onzeleden"
+            "overons overons onzeleden onzeleden"
+            "onzesponsoren onzesponsoren geschiedenismcdonalds geschiedenismcdonalds"
+            "onzesponsoren onzesponsoren geschiedenismcdonalds geschiedenismcdonalds";
+        grid-gap: 5px;
+    }
+
+    .container1 {
+        border: 30px 60px 30px 60px;
+        margin: 10px 20px 10px 20px;
+        padding: 1px 2px 1px 2px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 100px;
+        grid-template-areas:
+            "contact contact"
+            "contact contact"
+            "contact contact"
+            "contact contact"
+            "contact contact"
+            "contact contact"
+            "contact contact"
+            "contact contact";
+        grid-gap: 5px;
+    }
+
+    .container2 {
+        border: 30px 60px 30px 60px;
+        margin: 10px 20px 10px 20px;
+        padding: 1px 2px 1px 2px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 100px;
+        grid-template-areas:
+            "lidworden lidworden"
+            "lidworden lidworden"
+            "lidworden lidworden"
+            "lidworden lidworden"
+            "lidworden lidworden"
+            "lidworden lidworden"
+            "lidworden lidworden"
+            "lidworden lidworden";
+        grid-gap: 5px;
+    }
+
+    .container3 {
+        border: 30px 60px 30px 60px;
+        margin: 10px 20px 10px 20px;
+        padding: 1px 2px 1px 2px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 100px;
+        grid-template-areas:
+            "overons overons"
+            "overons overons"
+            "overons overons"
+            "overons overons"
+            "overons overons"
+            "overons overons"
+            "overons overons"
+            "overons overons";
+        grid-gap: 5px;
+    }
+
+    .welkom {
+        grid-area: welkom;
+        background-color: #ac2a2a;
+        border-radius: 10px;
+    }
+
+    .plaatje {
+        grid-area: plaatje;
+        background-color: #ffffff;
+        border-radius: 10px;
+    }
+}
+
+        
